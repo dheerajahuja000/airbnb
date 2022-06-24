@@ -30,3 +30,26 @@ body{
   margin-left: 20%;
   margin-top: 0px;
 }
+
+.card{
+  position: relative;
+  margin: 20px;
+  
+}
+
+.card-image{
+  position: relative;
+  z-index: -1;
+}
+
+.card>p{
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sold-out-img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 0;
+}
